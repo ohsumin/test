@@ -78,7 +78,7 @@ public class BackupDatabase{
             e.printStackTrace();
         } finally {
             if (channel != null) {  
-                channel.disconnect();
+                channel.disconnect();    
             }
             if (session != null) {
                 session.disconnect();
